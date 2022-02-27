@@ -1,0 +1,37 @@
+#Using mongo and mongo db
+#Make sure you are in conda environment (in this case, PythonData)
+#1. Run mongod in git bash (must have this running in the backgroud)
+#2. Run new git bash and run mongo
+
+#use creates new db named "practice db" 
+use practice db 
+
+#show all dbs
+show dbs
+
+#show collections
+show collections
+
+#"Hey, Mongo, use the database we've already specified, and insert a document into this collection. 
+# If there's not a collection named that, then create one."
+db.collectionName.insertOne({key:value})
+
+# delete collections
+db.collectionName.deleteOne({key:value})
+
+# remove whole db
+db.collectionName.remove({})
+
+# drop method
+db.collectionName.drop()
+
+# drop db
+db.dropDatabase()
+
+# One really great part about how we interact with Mongo through the terminal is that it works really well with Python script and Flask.
+# Flask is a web microframework that helps developers build a web application. 
+# The Pythonic tools and libraries it comes with provide the means to create anything 
+# from a small webpage or blog or something large enough for commercial use.
+
+#See app.py for next steps.
+
