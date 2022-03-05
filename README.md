@@ -1,2 +1,2 @@
 # Mission-to-Mars
-Web scraping with MongoDB, HTML, CSS, and Flask
+The purpose of this assignment was to use web scraping and make a website with MongoDB, HTML, CSS, and Flask.
